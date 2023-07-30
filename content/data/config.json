@@ -1,0 +1,79 @@
+{
+    "type": "Config",
+    "favicon": "/images/favicon.svg",
+    "header": {
+        "headerVariant": "variant-c",
+        "isSticky": false,
+        "title": "ENRIQUE ROBLES MEDINA",
+        "isTitleVisible": true,
+        "primaryLinks": [
+            {
+                "type": "Link",
+                "label": "RESUME",
+                "url": "/info"
+            },
+            {
+                "type": "Link",
+                "label": "Projects",
+                "url": "/projects"
+            },
+            {
+                "type": "Link",
+                "label": "Blog",
+                "url": "/blog"
+            }
+        ],
+        "socialLinks": [
+            {
+                "type": "Social",
+                "altText": "LinkedIn",
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/erm97/",
+                "icon": "linkedin"
+            },
+            {
+                "type": "Social",
+                "altText": "GitHub",
+                "label": "GitHub",
+                "url": "https://github.com/DonQuike/portfolio",
+                "icon": "github"
+            }
+        ],
+        "styles": {
+            "self": {
+                "width": "full"
+            }
+        }
+    },
+    "footer": {
+        "primaryLinks": [],
+        "contacts": {
+            "title": "Contact details",
+            "phoneNumber": "+52 2282681879",
+            "phoneAltText": "My phone number",
+            "email": "carsrome.pana@gmail.com",
+            "emailAltText": "My email",
+            "address": "San Luis Potosí, San Luis Potosí, México",
+            "addressAltText": "My address"
+        },
+        "copyrightText": "Powered by [Stackbit](https://www.stackbit.com/)",
+        "styles": {
+            "self": {
+                "width": "narrow",
+                "padding": [
+                    "pt-16",
+                    "pb-16",
+                    "pr-4",
+                    "pl-4"
+                ]
+            }
+        }
+    },
+    "defaultMetaTags": [
+        {
+            "type": "MetaTag",
+            "property": "og:title",
+            "content": ""
+        }
+    ]
+}
